@@ -1,0 +1,406 @@
+/******************
+GENERAL
+******************/
+
+  p{
+    clear:left;
+  }
+
+  .bodyContainer{
+    float:left;
+    width:100%;
+  }
+  body{
+    font-family: 'josefin slab', sans-serif;
+  }
+
+  #wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding:0 5%;
+  }
+
+  a {
+    text-decoration:none;
+  }
+
+  img{
+    max-width:100%;
+  }
+
+  h3{
+    margin:0 0 1em 0; /*top right bottom left*/
+  }
+
+
+/******************
+HEADING
+******************/
+
+  header{
+    float:left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width:100%;
+  }
+
+
+  #logo{
+    text-align:center;
+    margin: 0;
+  }
+
+  h1{
+    font-family:'josefin slab', serif;
+    margin:15px 0;
+    font-size:2em;
+    font-weight:normal;
+    line-height:0.8em;
+  }
+
+
+  h2{
+    font-size:1em;
+    margin: -5px 0 0; /*top, left-right, bottom*/
+    font-weight:bold;
+  }
+
+
+
+/******************
+NAVIGATION
+******************/
+
+  nav {
+    text-align:center;
+    padding:10px 0;
+    margin: 20px 0 0;
+  }
+
+  nav ul{
+    list-style:none;
+    margin: 0 10px;
+    padding: 0;
+  }
+
+  nav li{
+    display:inline-block;
+  }
+
+  nav a{
+    font-size: 1.10em;
+    font-weight: 800;
+    padding: 10px 10px;
+  }
+
+
+/******************
+FOOTER
+******************/
+  footer {
+    font-size:0.75em;
+    text-align: center;
+    clear:both;
+    padding-top: 50px;
+    color: #CCC;
+
+  }
+
+  .social-icon{
+    width:20px;
+    height:20px;
+    margin: 0 5px;
+  }
+
+/******************
+HOME
+******************/
+  .home-page{
+    position:relative;
+    max-width:100%;
+    float:left;
+  }
+  #home-page-image-left{
+    max-width:14%;
+    border-radius:40%;
+    float:left;
+
+  }
+  #home-page-image-right{
+    max-width:14%;
+    border-radius:40%;
+    float:right;
+
+  }
+
+
+  .home-page h2{
+    text-align:center;
+    padding:10px 0;
+  }
+
+  .featured-products{
+    position:relative;
+    max-width:100%;
+    float:left;
+    border:5px solid #aaaaaa;
+    margin-top:10px;
+
+  }
+  .featured-products h2{
+    text-align:center;
+    font-size: 1.4em;
+    font-weight:strong;
+    color:#FFFFFF;
+    clear:right;
+    background-color: #aaaaaa;
+    margin-left:28%;
+    margin-right:28%;
+  }
+/******************
+GALLERY
+******************/
+
+  #gallery{
+    margin:0;
+    padding:0;
+    list-style: none;
+  }
+
+  #gallery li{
+    float:left;
+    width:44%;
+    margin:2.5%;
+    background-color:#f5f5f5;
+    color:#bdc3c7;
+    border-left:1px solid;
+    border-right:1px solid;
+    border-bottom:1px solid;
+    border-top: 1px solid;
+  }
+
+  /*#gallery li:hover{
+    border:1px solid;
+  }*/
+
+  #gallery li a p{
+    margin:0;
+    padding: 5%;
+    font-size: 0.75em;
+    color: #555;
+  }
+
+  #gallery p{
+    height:25px;
+    overflow:hidden;
+  }
+
+
+
+/******************
+PAGE: ABOUT
+******************/
+  .profile-photo{
+    display:block;
+    max-width:150px;
+    margin: 0 auto 30px;
+    border-radius:100%; /*makes a circle, 10% would just round corners*/
+  }
+
+
+
+/******************
+PAGE: CONTACT
+******************/
+
+  .contact-info{
+    list-style:none;
+    padding:0;
+    margin:0;
+    font-size:0.9em;
+  }
+
+  .contact-info a{
+    display:block;
+    min-height:20px;
+    background-repeat:no-repeat;
+    background-size:20px 20px;
+    padding:0 0 0 30px;
+    margin: 0 0 10px;
+  }
+
+  .contact-info li.phone a{
+    background-image: url('../img/phone.png');
+  }
+  .contact-info li.mail a{
+    background-image: url('../img/mail.png');
+  }
+  .contact-info li.twitter a{
+    background-image: url('../img/twitter.png');
+  }
+
+
+
+
+/******************
+PAGE: Custom Message
+******************/
+  #contact p {
+    text-align:center;
+  }
+  #contact{
+    max-width:400px;
+    margin:auto;
+  }
+  #contact h1{
+    text-align: center;
+  }
+  .errorMessage{
+    background-color:#F88;
+    border:2px solid #888;
+    margin: auto;
+    max-width:400px;
+    padding:10px 0 10px 0
+  }
+
+  form fieldset{
+    padding:10px 0px;
+    border:5px solid #c0c0c0;
+  }
+
+  /**** Form Table Element ****/
+    form {
+      width:100%;
+      margin:auto;
+    }
+
+    form table{
+      width:100%;
+      margin: auto;
+      border-collapse:collapse;
+    }
+
+    form table, td, th{
+      border:1px solid #c0c0c0;
+    }
+
+    form table th, td{
+      height:35px;
+    }
+
+    form table th{
+
+    }
+
+    form table td{
+
+    }
+
+  /**** Form Input Elements ****/
+
+    form input, textarea{
+      width:90%;
+      margin:4px 5%;
+    }
+
+    form textarea{
+      height:80px;
+      margin-top:10px;
+    }
+
+  /*input[type="submit"]{
+    color:black;
+    width:100%;
+    margin:auto;
+    background-color: #c0c0c0;
+    border:0px;
+  }*/
+  form input[type="submit"] {
+    width: 100%;
+    text-align: center;
+    border: 1px solid #AAA;
+    background: #888;
+    color: #FFF;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 14px;
+    margin: 10px auto auto auto;
+  }
+
+  input[type="submit"]:hover{
+    background-color: #c9c9c9;
+  }
+  /* TODO: add JS to change outset to inset;*/
+
+/******************
+PAGE: orderDetails
+******************/
+
+  h1 span.price{
+    font-size: 60px;
+  }
+
+  p.designer-note{
+    font-weight:bold;
+  }
+
+/******************
+COLORS
+******************/
+  /* site body */
+  /*html{
+    background-color:#;
+  }*/
+  body{
+    background-color:#cacaca;
+    color: #111;
+  }
+  #wrapper{
+    background-color:#fff;
+    border-left:solid 5px #999;
+    border-right:solid 5px #999;
+    border-bottom:solid 5px #999;
+  }
+
+  header{
+    background:#dbdbdb;
+    border-color:#599a68;
+  }
+
+  /* nav background on mobile */
+  nav{
+    background:#999999;
+  }
+
+  /* logo text */
+  h1,h2 {
+    color:#111;
+  }
+
+  /* links */
+  a {
+    color: #000099;
+  }
+
+  /* nav link */
+  nav a,nav a:visited{
+    color:#111;
+  }
+
+  /* selected nav link */
+  nav a.selected, nav a:hover {
+    color:#17F;
+  }
+
+  h1 span.price{
+    color: #5577FF;
+  }
+
+  .errorMessage {
+    color:#990000;
+    text-align:center;
+    background-color:#f9f0f0;
+    border-color:#555;
+  }
